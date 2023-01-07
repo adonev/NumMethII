@@ -1,2 +1,2 @@
-# CompPDEs.github.io
-Computational methods for classical PDEs class at NYU taught by Aleks Donev
+# NumMethII.github.io
+Numerical Methods class at NYU taught by Aleks Donev in Spring 2023
