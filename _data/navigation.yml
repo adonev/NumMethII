@@ -1,4 +1,4 @@
-docs_list_title: Scientific Computing at NYU
+docs_list_title: Numerical Methods at NYU
 docs:
 
 - title: Home
@@ -9,8 +9,4 @@ docs:
  
 - title: Assignments
   url: Assignments.html
-    
-- title: Resources
-  url: Resources.html
- 
-
+     
