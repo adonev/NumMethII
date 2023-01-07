@@ -34,15 +34,15 @@ Homeworks will often contain two parts, one that is required to submit and will 
 
 The assignments below will be edited as we go along the semester; the version attached below may be from previous iterations of this course.
 
-### 1. (Due ???) [Accuracy of Fourier Interpolation](Assignments/AssignmentFFT.pdf)
+### 1. (Due 5pm on 2/7) [Accuracy of Fourier Interpolation](Assignments/AssignmentFFT.pdf)
 
-### 2. (Due Sunday Feb 24th) [Pseudospectral spatial discretizations](Assignments/AssignmentPseudospectral.pdf)
+### 2. (Due ?) [Pseudospectral spatial discretizations](Assignments/AssignmentPseudospectral.pdf)
 
-### 3. (Due Sunday March 10th) [ODEs for planetary motion](Assignments/AssignmentODE.pdf)
+### 3. (Due ?) [ODEs for planetary motion](Assignments/AssignmentODE.pdf)
 
-### 4. (Extended to Tuesday April 2nd 5pm) [Pseudospectral method for KdV](Assignments/AssignmentKdV.pdf)
+### 4. (Due ?) [Pseudospectral method for KdV](Assignments/AssignmentKdV.pdf)
 
-### 5. (Extended to Tuesday April 23rd 5pm) [Elliptic and Parabolic PDEs](Assignments/AssignmentDiffusion.pdf)
+### 5. (Due ?) [Elliptic and Parabolic PDEs](Assignments/AssignmentDiffusion.pdf)
 
 ## Final Project Ideas
 
