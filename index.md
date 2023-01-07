@@ -12,7 +12,15 @@ his course (3pts) will cover fundamental methods that are essential for the nume
 5. Finite volume methods for hyperbolic (advection and wave eqs.) partial differential equations. 
 For more information consult the webpage for previous iterations of [this class taught by A. Donev](https://cims.nyu.edu/~donev/Teaching/NMII). Communication/grading will be handled via NYU Brightspace.
 
-#### Reading Materials
+### Instructor
+
+**[Aleksandar Donev](http://cims.nyu.edu/%7Edonev)**, 1016 Warren Weaver Hall, (Email)[mailto:donev@courant.nyu.edu]. 
+Office hours: **3 to 5 pm Wednesdays** or by [appointment](mailto:donev@cims.nyu.edu) 
+ 
+**Grader/TA**: Mariya Savinov (mas10009@nyu).
+Office hours TBD.
+
+### Reading Materials
 
 The primary required textbook for this class is: 
 
