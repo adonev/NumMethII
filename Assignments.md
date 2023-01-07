@@ -36,7 +36,9 @@ The assignments below will be edited as we go along the semester; the version at
 
 ### 1. (Due 5pm on 2/7) [Accuracy of Fourier Interpolation](Assignments/AssignmentFFT.pdf)
 
-### 2. (Due ?) [Pseudospectral spatial discretizations](Assignments/AssignmentPseudospectral.pdf)
+### 2. (Due 5pm on 2/14) [Pseudospectral spatial discretizations](Assignments/AssignmentPseudospectral.pdf)
+
+==================NOT UPDATED FROM HERE============================
 
 ### 3. (Due ?) [ODEs for planetary motion](Assignments/AssignmentODE.pdf)
 
