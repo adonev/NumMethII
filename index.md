@@ -4,7 +4,7 @@ layout: default
 ---
 ## Numerical Methods II (MATH-GA.2020-001 / CSCI-GA.2421-001)
 
-his course (3pts) will cover fundamental methods that are essential for the numerical solution of differential equations. It is intended for students familiar with ODE and PDE and interested in numerical computing; computer programming assignments in MATLAB/Python will form an essential part of the course. The course will introduce students to numerical methods for (approximately in this order): 
+This course (3pts) will cover fundamental methods that are essential for the numerical solution of differential equations. It is intended for students familiar with ODE and PDE and interested in numerical computing; computer programming assignments in MATLAB/Python will form an essential part of the course. The course will introduce students to numerical methods for (approximately in this order): 
 1. The Fast Fourier Transform and spectral methods for elliptic PDEs
 2. Finite difference and finite element and integral equation methods for elliptic partial differential equations (Poisson eq.) 
 3. Ordinary differential equations, explicit and implicit Runge-Kutta and multistep methods, convergence and stability
