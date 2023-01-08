@@ -27,13 +27,13 @@ Read chapter 5 except 5.9 and chapter 6 except 6.4 in LeVeque -- we will come ba
  
 A paper by Shampine and Reichelt describes [The MATLAB ODE suite](https://epubs.siam.org/doi/10.1137/S1064827594276424) and is important reading for anyone using the MATLAB solvers. 
 
-### 4. (2/19) [Runge-Kutta Methods](Lectures/RungeKutta.pdf)[ ](Lectures/Lecture-ODE.handout.pdf)
+### 4. (2/19) [Runge-Kutta Methods](Lectures/RungeKuttaNumMethII.pdf)
 
-We will give some more details about [Runge-Kutta methods](Lectures/RungeKutta.pdf) and also adaptive time stepping (needed for Homework 3), and go through a solution of the first homework. 
+We will give some more details about [Runge-Kutta methods](Lectures/RungeKuttaNumMethII.pdf) and also adaptive time stepping (needed for Homework 3), and go through a solution of the first homework. 
 
-### 5. (2/26)  [Absolute Stability](Lectures/Lecture-Stability.handout.pdf) and [Stiffness and Linear Multistep Methods](Lectures/MultiStepMethods.pdf)
+==================NOT UPDATED FROM HERE============================
 
-This lecture will be given by Jason Kaye.
+### 5. (2/26)  [Absolute Stability and Stiffness](Lectures/Lecture-Stability.handout.pdf) and [Linear Multistep Methods](Lectures/MultiStepMethods.pdf)
 
 We will introduce regions of [absolute stability](Lectures/Lecture-Stability.handout.pdf) for various one-step methods and discuss the concept of stiffness, which will be crucial for PDEs. Read chapters 7 and 8 in LeVeque, except 7.3, 7.6.1 and 8.4.
 
@@ -45,7 +45,7 @@ Exponential integrators are covered briefly in section 11.6 of LeVeque. The orig
 
 ### 7. (3/12) [Finite Difference Discretizations](Lectures/FD_Elliptic_1D.pdf) and (3/26 and 4/2) their [Convergence and Stability for Elliptic BVPs](Lectures/FD_Elliptic_Convergence.pdf)
 
-**There is no lecture on 3/19 due to spring break.**
+**There is no lecture on 3/14 due to spring break.**
 
 I will follow relatively closely the book of LeVeque but not necessarily in the same order and with some additional comments. Read Chapters 1 and 2 in LeVeque.
 
