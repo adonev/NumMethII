@@ -38,9 +38,9 @@ The assignments below will be edited as we go along the semester; the version at
 
 ### 2. (Due 5pm on 2/21) [Pseudospectral spatial discretizations](Assignments/AssignmentPseudospectral.pdf)
 
-==================NOT UPDATED FROM HERE============================
-
 ### 3. (Due ?) [ODEs for planetary motion](Assignments/AssignmentODE.pdf)
+
+==================NOT UPDATED FROM HERE============================
 
 ### 4. (Due ?) [Pseudospectral method for KdV](Assignments/AssignmentKdV.pdf)
 
