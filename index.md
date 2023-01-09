@@ -30,7 +30,9 @@ However, this does not cover spectral methods/representation. There is no great 
 
 2. "[Spectral Methods in Matlab](https://epubs.siam.org/doi/book/10.1137/1.9780898719598)" by Nick **Trefethen**, which includes lots of [MATLAB codes](https://people.maths.ox.ac.uk/trefethen/spectral.html), and focuses on Fourier and Chebyshev representations for elliptic PDEs.
 
-Advanced students can use as a very good resource this book available to you in PDF format:
+For more advanced material consult my [Computational Methods for PDEs class](https://adonev.github.io/CompPDEs).
+
+Advanced students can also use as a very good resource this book available to you in PDF format:
 
 3. Hundsdorfer, W., & Verwer, J.G. (2003). Springer Series in Computational Mathematics \[Series, Vol. 33\], [Numerical Solution of Time-Dependent Advection-Diffusion-Reaction Equations](http://link.springer.com/book/10.1007/978-3-662-09017-6), New York, NY: Springer-Verlag.
 

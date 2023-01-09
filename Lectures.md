@@ -6,12 +6,16 @@ layout: default
 ## Lectures 
 
 I will post here lecture notes for each class in the form of slides (typed or hand-written). While these contain all of the information you need to know, reading going beyond this is essential to the class and will be indicated here. I will refer mostly to the textbook of LeVeque, but there will also be links to papers or notes by other people. 
+
+For more advanced material consult my [Computational Methods for PDEs class](https://adonev.github.io/CompPDEs).
  
 **These pages are constantly updated up to but sometimes also after the lecture. *Please refer to them regularly especially when doing homework.*** 
 
 ### 1. (1/24) [The Fast Fourier Transform (FFT)](Lectures/Lecture-FFT.handout.pdf) and 2. (1/31) [Pseudospectral Methods](Lectures/Lecture-Spectral.handout.pdf)
 
 The use of Fourier techniques in PDEs, both their analysis and numerical solution, will come up many times in this class. There are three separate but related topics to consider here. The first is the [FFT as a discrete unitary transform](Lectures/Lecture-FFT.handout.pdf) (linear algebra), and using the Fourier series as an [approximation to periodic functions](https://epubs.siam.org/doi/pdf/10.1137/141001007) (approximation theory, see sections 2,3 and 4 in the paper ["Extension of Chebfun to periodic functions"](https://epubs.siam.org/doi/pdf/10.1137/141001007) 2015), and [FFTs as as a tool to solve PDEs](Lectures/Lecture-Spectral.handout.pdf). The use of FFTs to do Chebyshev series is described in chapter 7 of Trefethen.
+
+By far the most popular/efficient library for FFTs is [FFTW](https://www.fftw.org/), see [documentation for what normalization it uses](https://www.fftw.org/fftw3_doc/What-FFTW-Really-Computes.html). FFTW is used under the hood in Matlab/numpy, but they may use differet normalization, see for example the [Matlab's fft/ifft convention](https://www.mathworks.com/help/matlab/ref/fft.html#buuutyt-6).
 
 Appendix E reviews measuring errors. **Appendix B.3 in LeVeque** reviews orthogonal polynomials. **Appendix E.3 in LeVeque** reviews using Fourier transforms to solve PDEs with pen and paper and you should read this if it is not already comfortably familiar. I recommend reading Appendices A, B, and E in their entirety asap.
  
