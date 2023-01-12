@@ -15,10 +15,10 @@ For more information consult the webpage for previous iterations of [this class 
 ### Instructor
 
 **[Aleksandar Donev](http://cims.nyu.edu/%7Edonev)**, 1016 Warren Weaver Hall, (Email)[mailto:donev@courant.nyu.edu]. 
-Office hours: **3 to 5 pm Wednesdays** or by [appointment](mailto:donev@cims.nyu.edu) 
+Office hours: **3 to 4:30pm Wednesdays** or by [appointment](mailto:donev@cims.nyu.edu) 
  
 **Grader/TA**: Mariya Savinov (mas10009@nyu).
-Office hours TBD.
+Office hours, Mondays 2pm-3pm, 905 WWH.
 
 ### Reading Materials
 
