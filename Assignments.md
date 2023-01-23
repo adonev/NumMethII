@@ -3,6 +3,8 @@ title: Assignments for Numerical Methods II by Aleks Donev (Spring 2023)
 layout: default
 ---
 
+Jump to [assignments](Homework-assignments)
+
 ## Homework instructions
 
 Please submit solutions via NYU's class management system Brightspace as a self-contained PDF report that is organized with a discussion, figures, and results/answers, along with source codes (plain text please) as attachments. Please do not include codes in the PDF, attach them separately as a zip file or plain text .m or .py files. Jupiter notebooks with code will **not** be accepted (unless you hide all the code in the PDF and export it as a standalone text file); the intention is for you to practice scientific writing which does not usually involve codes (just code snippets when required).
