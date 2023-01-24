@@ -8,6 +8,8 @@ layout: default
 I will post here lecture notes for each class in the form of slides (typed or hand-written). While these contain all of the information you need to know, reading going beyond this is essential to the class and will be indicated here. I will refer mostly to the textbook of LeVeque, but there will also be links to papers or notes by other people. 
 
 For more advanced material consult my [Computational Methods for PDEs class](https://adonev.github.io/CompPDEs).
+
+For the PDE review by Prof. Jonathan Goodman, see these notes on [Fourier series](Lectures/PDE_Review_Fourier.pdf) (parts 2 and 3 to follow).
  
 **These pages are constantly updated up to but sometimes also after the lecture. *Please refer to them regularly especially when doing homework.*** 
 
