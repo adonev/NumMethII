@@ -3,7 +3,7 @@ title: Assignments for Numerical Methods II by Aleks Donev (Spring 2023)
 layout: default
 ---
 
-Jump to [assignments](Homework-assignments)
+Jump to [assignments](#Homework-assignments)
 
 ## Homework instructions
 
