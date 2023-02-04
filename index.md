@@ -75,3 +75,9 @@ As a first assignment, please submit the answers to this questionnaire [via emai
 4. Why did you choose this course, and which of the topics listed in the course description interest you most (in particular, do you know what subject you would like to present on in class)?
 5. What is your programming experience (list programming languages with proficiency level)?
 
+
+## Inclusiveness
+
+As an instructor, I will strive to create a safe, respectful, and inclusive environment for all students regardless of their identity. I recognize and value diversity inside and outside of the classroom, and recognize that each student has a unique contribution to make and brings with them different strengths and weaknesses. I welcome your ideas for how to promote a better understanding and deeper learning in this class as a community. Please feel free to ask questions, to participate in discussions, and to suggest new approaches to the class content. Please also feel welcome to raise any issue you may have in class or outside of class, including reporting incidents of bias or discrimination, whether intentional or unintentional, either to me, to your advisor(s)/mentor(s), or by using the [NYU Bias Response Line](https://www.nyu.edu/about/policies-guidelines-compliance/equal-opportunity/bias-response.html).
+
+
