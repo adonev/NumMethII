@@ -9,7 +9,7 @@ I will post here lecture notes for each class in the form of slides (typed or ha
 
 For more advanced material consult my [Computational Methods for PDEs class](https://adonev.github.io/CompPDEs).
 
-For the PDE review by Prof. Jonathan Goodman, see these notes on [Fourier series](Lectures/PDE_Review_Fourier.pdf) and these notes on [Modes and the heat equation(Lectures/PDE_Review_ModesAndHeat.pdf) (part 3 to follow).
+For the PDE review by Prof. Jonathan Goodman, see these notes on [Fourier series](Lectures/PDE_Review_Fourier.pdf) and these notes on [Modes and the heat equation(Lectures/PDE_Review_ModesAndHeat.pdf) and these notes on [physical PDEs](Lectures/PDE_Review_Physical.pdf).
  
 **These pages are constantly updated up to but sometimes also after the lecture. *Please refer to them regularly especially when doing homework.*** 
 
