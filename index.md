@@ -19,7 +19,7 @@ The class will take place in person in WWH 102 on Tuesdays 5:10-7pm.
 #### Instructors
 
 **[Aleksandar Donev](http://cims.nyu.edu/%7Edonev)**, 1016 Warren Weaver Hall, contact by [Email](mailto:donev@courant.nyu.edu). 
-Office hours: **3 to 4:30pm Wednesdays** or by [appointment](mailto:donev@cims.nyu.edu) 
+Office hours: **3:15 to 4:45pm Wednesdays** or by [appointment](mailto:donev@cims.nyu.edu) 
  
 **Grader/TA**: Mariya Savinov (mas10009@nyu).
 Office hours, Mondays 2pm-3pm, 905 WWH.
