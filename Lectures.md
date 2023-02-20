@@ -13,19 +13,19 @@ For the PDE review by Prof. Jonathan Goodman, see these notes on [Fourier series
  
 **These pages are constantly updated up to but sometimes also after the lecture. *Please refer to them regularly especially when doing homework.*** 
 
-### 1. (1/24) [The Fast Fourier Transform (FFT)](Lectures/Lecture-FFT.handout.pdf) and 2. (1/31) [Pseudospectral Methods](Lectures/Lecture-Spectral.handout.pdf)
+### 1. (1/24) [The Fast Fourier Transform (FFT)](Lectures/Lecture-FFT.handout.pdf) and 2. (1/31 and 2/7) [Pseudospectral Methods](Lectures/Lecture-Spectral.handout.pdf)
 
 The use of Fourier techniques in PDEs, both their analysis and numerical solution, will come up many times in this class. There are three separate but related topics to consider here. The first is the [FFT as a discrete unitary transform](Lectures/Lecture-FFT.handout.pdf) (linear algebra), and using the Fourier series as an [approximation to periodic functions](https://epubs.siam.org/doi/pdf/10.1137/141001007) (approximation theory, see sections 2,3 and 4 in the paper ["Extension of Chebfun to periodic functions"](https://epubs.siam.org/doi/pdf/10.1137/141001007) 2015), and [FFTs as as a tool to solve PDEs](Lectures/Lecture-Spectral.handout.pdf). The use of FFTs to do Chebyshev series is described in chapter 7 of Trefethen.
 
 By far the most popular/efficient library for FFTs is [FFTW](https://www.fftw.org/), see [documentation for what normalization it uses](https://www.fftw.org/fftw3_doc/What-FFTW-Really-Computes.html). FFTW is used under the hood in Matlab/numpy, but they may use differet normalization, see for example the [Matlab's fft/ifft convention](https://www.mathworks.com/help/matlab/ref/fft.html#buuutyt-6).
 
-Appendix E reviews measuring errors. **Appendix B.3 in LeVeque** reviews orthogonal polynomials. **Appendix E.3 in LeVeque** reviews using Fourier transforms to solve PDEs with pen and paper and you should read this if it is not already comfortably familiar. I recommend reading Appendices A, B, and E in their entirety asap.
+**Appendix A.5 in Leveque** reviews measuring errors. **Appendix B.3 in LeVeque** reviews orthogonal polynomials. **Appendix E.3 in LeVeque** reviews using Fourier transforms to solve PDEs with pen and paper and you should read this if it is not already comfortably familiar. I recommend reading Appendices A, B, and E in their entirety asap.
  
 A complete source on trigonometric and Chebyshev polynomials and more is the book "[Spectral Methods in Matlab](https://epubs.siam.org/doi/book/10.1137/1.9780898719598)" (available electronically at Courant) by Nick Trefethen, which includes lots of [MATLAB codes](https://people.maths.ox.ac.uk/trefethen/spectral.html).
  
 See also these [short notes on handling the unmatched mode](Lectures/SolutionPseudoKdV.pdf) for even-sized grids. There are some subtle issues with spectral differentiation, as discused in detail in these [technical notes by Steven G. Johnson](Lectures/SpectralDerivatives_FFT.pdf), as well as with aliasing, as discussed in these [selected pages on aliasing](Lectures/Aliasing.pdf) from the detailed [notes on pseudospectral methods by Denys Dutykh](https://arxiv.org/abs/1606.05432v1). For the approximation theory behind using Fourier series as an approximation to periodic functions, see sections 2,3 and 4 in the paper ["Extension of Chebfun to periodic functions" by Nick Trefethen](https://epubs.siam.org/doi/pdf/10.1137/141001007). 
 
-### 3. (2/7) [One-step methods for ODEs](Lectures/Lecture-ODE.handout.pdf)
+### 3. (2/7 and 2/14) [One-step methods for ODEs](Lectures/Lecture-ODE.handout.pdf)
 
 We begin our study of differential equations with some [basic methods and theory for solving systems of ODEs](Lectures/Lecture-ODE.handout.pdf), namely, concepts of consistency, zero-stability and convergence for one-step methods. 
  
@@ -33,17 +33,17 @@ Read chapter 5 except 5.9 and chapter 6 except 6.4 in LeVeque -- we will come ba
  
 A paper by Shampine and Reichelt describes [The MATLAB ODE suite](https://epubs.siam.org/doi/10.1137/S1064827594276424) and is important reading for anyone using the MATLAB solvers. 
 
-### 4. (2/19) [Runge-Kutta Methods](Lectures/RungeKuttaNumMethII.pdf)
+### 4. (2/21) [Runge-Kutta methods and adaptivity](Lectures/RungeKuttaNumMethII.pdf)
 
-We will give some more details about [Runge-Kutta methods](Lectures/RungeKuttaNumMethII.pdf) and also adaptive time stepping (needed for Homework 3), and go through a solution of the first homework. 
+We will give some more details about [Runge-Kutta methods](Lectures/RungeKuttaNumMethII.pdf) and also adaptive time stepping (needed for Homework 3). 
+
+### 5. (2/28 and 3/7)  [Absolute Stability and Stiffness](Lectures/Lecture-Stability.handout.pdf) and [Linear Multistep Methods](Lectures/LinearMultistepMethods.pdf)
+
+The lecture on 2/28 will be given by Mariya Savinov. They will introduce regions of [absolute stability](Lectures/Lecture-Stability.handout.pdf) for various one-step methods and discuss the concept of stiffness, which will be crucial for PDEs. Read chapters 7 and 8 in LeVeque, except 7.3, 7.6.1 and 8.4.
+
+We will then cover [linear multistep methods](Lectures/LinearMultistepMethods.pdf), including convergence, zero and absolute stability. Read sections 5.9, 6.4, 7.3, 7.6.1, and 8.4 in LeVeque.
 
 ==================NOT UPDATED FROM HERE============================
-
-### 5. (2/26)  [Absolute Stability and Stiffness](Lectures/Lecture-Stability.handout.pdf) and [Linear Multistep Methods](Lectures/MultiStepMethods.pdf)
-
-We will introduce regions of [absolute stability](Lectures/Lecture-Stability.handout.pdf) for various one-step methods and discuss the concept of stiffness, which will be crucial for PDEs. Read chapters 7 and 8 in LeVeque, except 7.3, 7.6.1 and 8.4.
-
-We will also cover [linear multistep methods](Lectures/MultiStepMethods.pdf), including convergence, zero and absolute stability. Read sections 5.9, 6.4, 7.3, 7.6.1, and 8.4 in LeVeque.
 
 ### 6. (3/5) [Exponential Time Integrators](Lectures/ExponentialIntegration.pdf) 
 
