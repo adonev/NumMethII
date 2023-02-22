@@ -37,7 +37,7 @@ A paper by Shampine and Reichelt describes [The MATLAB ODE suite](https://epubs.
 
 We will give some more details about [Runge-Kutta methods](Lectures/RungeKuttaNumMethII.pdf) and also adaptive time stepping (needed for Homework 3).
 
-We will not cover in class the last aside in the lecture notes, which describes how to derive the fully [implicit Gauss RK2 scheme](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_method) of 4th order, the maximum possible for two stages. Some of the calculations and the proof that this method is of 4th order for linear ODEs are done in a [Maple worksheet](Lectures/GaussRK2.pdf)([Maple _mws_ file](Lectures/GaussRK2.mws)).
+We will not cover in class the last aside in the lecture notes, which describes how to derive the fully [implicit Gauss RK2 scheme](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_method) of 4th order, the maximum possible for two stages. Some of the calculations and the proof that this method is of 4th order for linear ODEs are done in a [Maple worksheet](Lectures/GaussRK2.pdf) ([Maple _mws_ file](Lectures/GaussRK2.mws)).
 
 ### 5. (2/28 and 3/7)  [Absolute Stability and Stiffness](Lectures/Lecture-Stability.handout.pdf) and [Linear Multistep Methods](Lectures/LinearMultistepMethods.pdf)
 
