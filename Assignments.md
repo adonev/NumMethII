@@ -42,15 +42,11 @@ The assignments below will be edited as we go along the semester; the version at
 
 ### 3. (Due 9am on 3/13) [ODEs for planetary motion](Assignments/AssignmentODE.pdf)
 
-==================NOT UPDATED FROM HERE============================
-
 ### 4. (Due ?) [Pseudospectral method for KdV](Assignments/AssignmentKdV.pdf)
 
 ### 5. (Due ?) [Elliptic and Parabolic PDEs](Assignments/AssignmentDiffusion.pdf)
 
-## Final Project Ideas
-
-Due ???
+## (Due ?) Final Project
 
 For the final projects, you have some freedom in selecting what you want to do. This would preferably be related to the subject of your Ph.D./masters research and be something you are interested in. The goal is to do something more "real-world" than the homeworks, or to learn a method we did not cover in class. If you are also taking the High Performance Computing (HPC) class, it is OK to use the same project for this class, but note that the goal is difference and for this class the focus is on the numerical analysis (testing convergence, order of accuracy, stability, robustness, etc.) and not just on efficiency. 
  
