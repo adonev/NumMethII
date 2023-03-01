@@ -41,7 +41,7 @@ We will not cover in class the last aside in the lecture notes, which describes 
 
 ### 5. (2/28 and 3/7)  [Absolute Stability and Stiffness](Lectures/Lecture-Stability.handout.pdf) and [Linear Multistep Methods](Lectures/LinearMultistepMethods.pdf)
 
-The lecture on 2/28 will be given by Mariya Savinov. They will introduce regions of [absolute stability](Lectures/Lecture-Stability.handout.pdf) for various one-step methods and discuss the concept of stiffness, which will be crucial for PDEs. Read chapters 7 and 8 in LeVeque, except 7.3, 7.6.1 and 8.4.
+The lecture on 2/28 will be given by Mariya Savinov, see these [additional notes on HW2](Lectures/LectureStability_ExtraNotes.pdf). They will introduce regions of [absolute stability](Lectures/Lecture-Stability.handout.pdf) for various one-step methods and discuss the concept of stiffness, which will be crucial for PDEs. Read chapters 7 and 8 in LeVeque, except 7.3, 7.6.1 and 8.4.
 
 We will then cover [linear multistep methods](Lectures/LinearMultistepMethods.pdf), including convergence, zero and absolute stability. Read sections 5.9, 6.4, 7.3, 7.6.1, and 8.4 in LeVeque.
 
