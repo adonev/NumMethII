@@ -43,7 +43,7 @@ We will not cover in class the last aside in the lecture notes, which describes 
 
 The lecture on 2/28 will be given by Mariya Savinov, see these [additional notes on HW2](Lectures/LectureStability_ExtraNotes.pdf). They will introduce regions of [absolute stability](Lectures/Lecture-Stability.handout.pdf) for various one-step methods and discuss the concept of stiffness, which will be crucial for PDEs. Read chapters 7 and 8 in LeVeque, except 7.3, 7.6.1 and 8.4.
 
-We will then cover [linear multistep methods](Lectures/LinearMultistepMethods.pdf), including convergence, zero and absolute stability. Read sections 5.9, 6.4, 7.3, 7.6.1, and 8.4 in LeVeque.
+We will then cover [linear multistep methods](Lectures/LinearMultistepMethods.pdf), including convergence, zero and absolute stability. Read sections 5.9, 6.4, 7.3, 7.6.1, and 8.4 in LeVeque. In the time remaining, we will discuss [IMEX temporal integrators](Lectures/IMEX.pdf). The IMEX RK schemes in these notes are based on the article by [Pareschi and Russo on "Implicit-explicit Runge-Kutta schemes and applications to hyperbolic systems with relaxation"](https://link.springer.com/article/10.1007/s10915-004-4636-4), which derives a (recommended!) scheme that combines (Strong Stability Preserving or SSP) RK3 for advection with an L-stable (Diagonally Implicit RK or DIRK) RK2 scheme for diffusion.
 
 (3/14) No class, **spring break**!
 
