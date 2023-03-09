@@ -46,9 +46,13 @@ The assignments below will be edited as we go along the semester; the version at
 
 ### 5. (Due ?) [Elliptic and Parabolic PDEs](Assignments/AssignmentDiffusion.pdf)
 
-## (Due ?) Final Project
+## (Due May 16) Final Project
 
-For the final projects, you have some freedom in selecting what you want to do. This would preferably be related to the subject of your Ph.D./masters research and be something you are interested in. The goal is to do something more "real-world" than the homeworks, or to learn a method we did not cover in class. If you are also taking the High Performance Computing (HPC) class, it is OK to use the same project for this class, but note that the goal is difference and for this class the focus is on the numerical analysis (testing convergence, order of accuracy, stability, robustness, etc.) and not just on efficiency. 
+All final projects must be approved by me by **April 3rd**, which means that you should contact me about the project by May 28th at the latest. We will discuss the topic of the project, the reading/learning materials involved, the codes you will use, and the goals and deliverables of the project. The goal of the final project is to learn/do something new we did not cover in class/homeworks, and to demonstrate mastery of the course material by applying what we learned it class in your project.
+
+For the final projects, you have some freedom in selecting what you want to do. This would preferably be related to the subject of your Ph.D./masters research and be something you are interested in. The goal is to do something more "real-world" than the homeworks, or to learn a method we did not cover in class. If you are also taking the High Performance Computing (HPC) class, it is OK to use the same project for this class, but note that the goal is difference and for this class the focus is on the numerical analysis (testing convergence, order of accuracy, stability, robustness, etc.) and not just on efficiency.
+
+You do **not** have to write a PDE/ODE solver from scratch for the project. It is completely fine, even encouraged, to use existing libraries/solvers. You must, however, read the full documentation and associated papers and understand (and report in your exam) what methods the code uses, what order they are supposed to be, what their computational cost is, etc.
  
 Most important is that you must carefully analyze and test the numerical accuracy of the codes using methods discussed in class. In particular, **projects without validations of the code and determination of order of accuracy and discussion of sources of error will be heavily penalized**. To be more specific, here are the things that you are expected to do in your final project and report: 
 
@@ -69,9 +73,11 @@ Use pseudospectral methods to solve the [Kuramoto–Sivashinsky equation](https:
 
 Learn about the finite element method and solve an elliptic PDE with it, either writing your own code for a one-dimensional Sturm-Louville problem (in which case it would be great to compare to finite difference and maybe also spectral methods, see below), or using a package to solve a two-dimensional non-constant coefficient elliptic problem.
 
-### Spectral Methods for BVPs in 1D
+### Spectral Methods for BVPs in 1D and/or 2D
 
-Learn about solving boundary value problems (ODEs) in 1D using orthogonal polynomials such as Chebyhev polynomials. Start with the book of Trefethen on Spectral Methods, but then switch to one (or try both if you can!) of the two improved methods described in this article by Leslie Greengard on an [integral equation reformulation](https://epubs.siam.org/doi/abs/10.1137/0728057) (this article has an important typo so talk to me if you are trying to implement this), or this article by Nick Trefethen's group on [rectangular matrix discretizations](https://epubs.siam.org/doi/abs/10.1137/16M1065975).
+Learn about solving boundary value problems (ODEs) or parabolic PDEs on finite domains in 1D using orthogonal polynomials such as Chebyhev polynomials. Start with the book of Trefethen on Spectral Methods, but then switch to one (or try both if you can!) of the two improved methods described in this article by Leslie Greengard on an [integral equation reformulation](https://epubs.siam.org/doi/abs/10.1137/0728057) (this article has an important typo so talk to me if you are trying to implement this), or this article by Nick Trefethen's group on [rectangular matrix discretizations](https://epubs.siam.org/doi/abs/10.1137/16M1065975). Yet another (better) alternative are [tau methods](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023068#fulltext), as implemented in [Dedalus](https://dedalus-project.org/). You could compare all three. If you only use one method, for this 1D project you **have to write your own code**.
+
+You can also extend this to 2D problems, where issues like handling corners become key. The best choice is to use the [Dedalus](https://dedalus-project.org/), which uses a [tau method](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023068#fulltext) to handle boundary conditions.
 
 ### Space-Time Methods for Advection-Diffusion Equations
 
