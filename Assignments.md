@@ -77,7 +77,11 @@ Learn about the finite element method and solve an elliptic PDE with it, either 
 
 Learn about solving boundary value problems (ODEs) or parabolic PDEs on finite domains in 1D using orthogonal polynomials such as Chebyhev polynomials. Start with the book of Trefethen on Spectral Methods, but then switch to one (or try both if you can!) of the two improved methods described in this article by Leslie Greengard on an [integral equation reformulation](https://epubs.siam.org/doi/abs/10.1137/0728057) (this article has an important typo so talk to me if you are trying to implement this), or this article by Nick Trefethen's group on [rectangular matrix discretizations](https://epubs.siam.org/doi/abs/10.1137/16M1065975). Yet another (better) alternative are [tau methods](https://dedalus-project.readthedocs.io/en/latest/pages/tau_method.html), as implemented in [Dedalus](https://dedalus-project.org/). You could compare all three. If you only use one method, for this 1D project you **have to write your own code**.
 
-You can also extend this to 2D problems, where issues like handling corners become key. The best choice is to use the [Dedalus](https://dedalus-project.org/), which is described in this [summary paper](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023068#fulltext).
+You can also extend this to 2D problems, where issues like [handling corners become key](https://arxiv.org/abs/2211.17259). The best choice is to use the [Dedalus](https://dedalus-project.org/), which is described in this [summary paper](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023068#fulltext).
+
+### Spectral Methods for PDEs on the surface of a sphere
+
+In geo-fluid dynamics (e.g., climate forecasting) we often need to solve parabolic PDEs on the surface of the Earth, i.e., a sphere (the mild asphericity of our planet can be ignored). This is a complicated topic but the [Dedalus](https://dedalus-project.org/) provides some interesting [spectral methods on disks and spheres](https://dedalus-project.readthedocs.io/en/latest/pages/methodology.html).
 
 ### Space-Time Methods for Advection-Diffusion Equations
 
