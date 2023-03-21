@@ -42,7 +42,7 @@ The assignments below will be edited as we go along the semester; the version at
 
 ### 3. (Due 5pm on 3/21) [ODEs for planetary motion](Assignments/AssignmentODE.pdf)
 
-### 4. (Due 5pm on 4/25) [Pseudospectral method for KdV](Assignments/AssignmentKdV.pdf)
+### 4. (Due 5pm on 4/18) [Pseudospectral method for KdV](Assignments/AssignmentKdV.pdf)
 
 ### 5. (Due ?) [Elliptic and Parabolic PDEs](Assignments/AssignmentDiffusion.pdf)
 
@@ -72,6 +72,10 @@ Use pseudospectral methods to solve the [Kuramoto–Sivashinsky equation](https:
 ### Finite-Element Methods in 1D or 2D
 
 Learn about the finite element method and solve an elliptic PDE with it, either writing your own code for a one-dimensional Sturm-Louville problem (in which case it would be great to compare to finite difference and maybe also spectral methods, see below), or using a package to solve a two-dimensional non-constant coefficient elliptic problem.
+
+### Galerkin Finite Difference Methods in 1D
+
+Learn about, implement, and analyze a recent class of [Galerkin Difference methods](http://www.sciencedirect.com/science/article/pii/S0021999116001121) that combine features of (compact) finite difference schemes and Galerkin finite element schemes, giving high-order accuracy and stability even for [higher order PDEs](https://link.springer.com/article/10.1007/s10915-022-01891-y).
 
 ### Spectral Methods for BVPs in 1D and/or 2D
 
