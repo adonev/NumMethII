@@ -71,7 +71,7 @@ Use pseudospectral methods to solve the [Kuramoto–Sivashinsky equation](https:
 
 ### Finite-Element Methods in 1D or 2D
 
-Learn about the finite element method and solve an elliptic PDE with it, either writing your own code for a one-dimensional Sturm-Louville problem (in which case it would be great to compare to finite difference and maybe also spectral methods, see below), or using a package to solve a two-dimensional non-constant coefficient elliptic problem.
+Learn about the finite element method and solve an elliptic PDE with it, either writing your own code for a one-dimensional Sturm-Louville problem (in which case it would be great to compare to finite difference and maybe also spectral methods, see below), or using a package to solve a two-dimensional non-constant coefficient elliptic problem. Here is a nice introduction to [Galerkin FEM for 2D Poisson](https://people.inf.ethz.ch/arbenz/FEM17/pdfs/0-19-852868-X.pdf).
 
 ### Galerkin Finite Difference Methods in 1D
 
