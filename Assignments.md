@@ -111,7 +111,9 @@ A more advanced step would to learn how to efficiently compute the trapezoidal q
 
 ### Reduced-Order Modeling
 
-Learn about POD methods for constructing reduced-order models of advection-diffusion-type equations (1D is OK) from the notes "[An introduction to the POD Galerkin method for fluid flows with analytical examples and MATLAB source codes](http://berndnoack.com/publications/Luchtenburg2009romfc.PDF)". Take a diffusive equation (heat, or advection-diffusion solved with your favorite discretization either in 1 or 2D) and construct a low rank basis using the SVD to construct the POD basis. Compare how many basis modes you need to capture 99.9% of the energy for different parameters in the equation. You can talk to Profs. Georg Stadler or Benjamin Peherstorfer for guidance.
+Learn about POD methods for constructing reduced-order models of advection-diffusion-type equations (1D is OK) from the notes "[An introduction to the POD Galerkin method for fluid flows with analytical examples and MATLAB source codes](http://berndnoack.com/publications/Luchtenburg2009romfc.PDF)". Another reading is this [book on reduced basis methods for parametrized PDEs](https://link.springer.com/book/10.1007/978-3-319-22470-1), especially Chapter 2.1, 2.2 and Chapter 3.1-3.3. 
+
+For an actual problem to solve, consider the "thermal block" example described in Section 2.2.1 in this [monograph by Patera and Rozza](https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.070/ss12/NumPDE2/Literatur/Patera_Rozza_-_RB_Approximation_and_a_posteriori_error_estimation_for_PPDE.pdf) (take 9 subdomains instead of 2 to make it a bit more interesting). You can talk to Profs. Georg Stadler or Benjamin Peherstorfer for guidance.
 
 ### Libraries
 
