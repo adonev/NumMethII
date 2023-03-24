@@ -50,6 +50,8 @@ The assignments below will be edited as we go along the semester; the version at
 
 All final projects must be approved by me by **April 3rd**, which means that you should contact me about the project by May 28th at the latest. We will discuss the topic of the project, the reading/learning materials involved, the codes you will use, and the goals and deliverables of the project. The goal of the final project is to learn/do something new we did not cover in class/homeworks, and to demonstrate mastery of the course material by applying what we learned it class in your project.
 
+The final project is **not a research project**. There is not enough time to do original research. The goal here is for you to follow a source and try to learn/reproduce/analyze a method/problem that has already been studied. That is, you need to choose something that will be guaranteed to succeed and work out if you do the work, not something risky.
+
 For the final projects, you have some freedom in selecting what you want to do. This would preferably be related to the subject of your Ph.D./masters research and be something you are interested in. The goal is to do something more "real-world" than the homeworks, or to learn a method we did not cover in class. If you are also taking the High Performance Computing (HPC) class, it is OK to use the same project for this class, but note that the goal is difference and for this class the focus is on the numerical analysis (testing convergence, order of accuracy, stability, robustness, etc.) and not just on efficiency.
 
 You do **not** have to write a PDE/ODE solver from scratch for the project. It is completely fine, even encouraged, to use existing libraries/solvers. You must, however, read the full documentation and associated papers and understand (and report in your exam) what methods the code uses, what order they are supposed to be, what their computational cost is, etc.
@@ -64,6 +66,12 @@ Most important is that you must carefully analyze and test the numerical accurac
 6. You must discuss the **computational complexity** of the algorithm/code etc. What limits the scalability/efficiency of the code. How could you improve it if you had more time. What other methods could you have used and how would they compare.
 
 Here are some possible projects that I am familiar with and could help you with. But please feel free to suggest your own:
+
+### Exponential Time Integration for PDEs
+
+In class/homework, we only used exponential time integration for spectral methods in periodic domains; in this case the linear operator in the stiff part is a diagonal matrix. For more general discretizations, we need to compute the action of the matrix exponential on a vector for non-diagonal matrices, best done using [polynomial Krylov methods](https://research.utwente.nl/files/5092923/memo1992.pdf) or [rational Krylov methods](http://www.guettel.com/download/rational-krylov-review.pdf). A good project is to try this out for an advection-diffusion equation in 1D, and then at least a diffusion equation in 2D.
+
+There is some useful software (feel free to use this software but make sure to understand what it does and explain briefly in your report) for [polynomial Krylov methods](https://research.utwente.nl/en/publications/a-short-guide-to-exponential-krylov-subspace-time-integration-for) in Matlab, as well as the more extensive [Expokit Fortran and Matlab library](https://www.maths.uq.edu.au/expokit/), and the Matlab [Rational Krylov Toolbox](http://guettel.com/rktoolbox/)
 
 ### Chaotic PDEs in 1D and 2D
 
