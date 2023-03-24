@@ -71,7 +71,7 @@ Here are some possible projects that I am familiar with and could help you with.
 
 In class/homework, we only used exponential time integration for spectral methods in periodic domains; in this case the linear operator in the stiff part is a diagonal matrix. For more general discretizations, we need to compute the action of the matrix exponential on a vector for non-diagonal matrices, best done using [polynomial Krylov methods](https://research.utwente.nl/files/5092923/memo1992.pdf) or [rational Krylov methods](http://www.guettel.com/download/rational-krylov-review.pdf). A good project is to try this out for an advection-diffusion equation in 1D, and then at least a diffusion equation in 2D.
 
-There is some useful software (feel free to use this software but make sure to understand what it does and explain briefly in your report) for [polynomial Krylov methods](https://research.utwente.nl/en/publications/a-short-guide-to-exponential-krylov-subspace-time-integration-for) in Matlab, as well as the more extensive [Expokit Fortran and Matlab library](https://www.maths.uq.edu.au/expokit/), and the Matlab [Rational Krylov Toolbox](http://guettel.com/rktoolbox/)
+There is some useful software (feel free to use this software but make sure to understand what it does and explain briefly in your report) for [polynomial Krylov methods](https://research.utwente.nl/en/publications/a-short-guide-to-exponential-krylov-subspace-time-integration-for) in Matlab, as well as the more extensive [Expokit Fortran and Matlab library](https://www.maths.uq.edu.au/expokit/), and the Matlab [Rational Krylov Toolbox](http://guettel.com/rktoolbox/).
 
 ### Chaotic PDEs in 1D and 2D
 
@@ -130,7 +130,8 @@ Using high-performance libraries developed by experts is welcome and in fact enc
 * [FEniCSx](https://fenicsproject.org/) is an easy-to-use yet powerful framework for finite-element based PDE solvers. The book "Introduction to Automated Modeling with FEniCs" by Ridgway Scott gives a lot of examples you can build on.
 * [OpenFOAM](https://www.openfoam.com/) is a commercial but free library/package for finite-volume based PDE solvers
 * [chebfun](https://www.chebfun.org/) is a library of numerical analysis tools built around Chebyshev polynomials.
-* [EPIC](https://faculty.ucmerced.edu/mtokman/#software) is a library of exponential time integrators.
+* [Expokit](https://www.maths.uq.edu.au/expokit/) Fortran and Matlab library for exponential integrators.
+* [Rational Krylov Toolbox](http://guettel.com/rktoolbox/) for approximating matrix functions including matrix exponentials.
 * [fiNUFFT](https://finufft.readthedocs.io/en/latest/) is a library for non-uniform FFTs if you need that as part of your project.
 * [FMM3D](https://fmm3d.readthedocs.io/en/latest/) is a 3D Fast Multipole Method library for Poisson and Helmholtz kernels, which can be useful if you want to do boundary integral methods.
 
