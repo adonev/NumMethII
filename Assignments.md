@@ -9,6 +9,8 @@ Jump to [assignments](#Homework-assignments)
 
 Please submit solutions via NYU's class management system Brightspace as a self-contained PDF report that is organized with a discussion, figures, and results/answers, along with source codes (plain text please) as attachments. Please do not include codes in the PDF, attach them separately as a zip file or plain text .m or .py files. Jupiter notebooks with code will **not** be accepted (unless you hide all the code in the PDF and export it as a standalone text file); the intention is for you to practice scientific writing which does not usually involve codes (just code snippets when required).
 
+Here is an [example solution](Assignments/SolutionSample.pdf) from my [Scientific Computing class](https://scicomp2020.github.io/). This problem is simple(r) but it has the same style of homework problem as I assign in this class. I don't expect your solutions to be this polished, but I want you to pay attention to how the sample report contains not just results but also explanations/analysis. **Doing is not the same as understanding!**
+
 ### Logistics
 
 1. Submit a stand-alone **self-contained** PDF file and your codes as plain text files or a **zip** archive.
