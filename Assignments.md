@@ -46,9 +46,11 @@ The assignments below will be edited as we go along the semester; the version at
 
 ### 4. (Due 5pm on 4/18) [Pseudospectral method for KdV](Assignments/AssignmentKdV.pdf)
 
-### 5. (Due ?) [Elliptic and Parabolic PDEs](Assignments/AssignmentDiffusion.pdf)
+### 5. (Due 5pm on 5/9) [Elliptic and Parabolic PDEs](Assignments/AssignmentDiffusion.pdf)
 
-## (Due May 16) Final Project
+## (Due 9pm EST Saturday May 20) Final Exam or Project
+
+The final exam will be a take-home exam that will look very much like another homework, but will be graded (rather strictly) by me.
 
 All final projects must be approved by me by **April 3rd**, which means that you should contact me about the project by May 28th at the latest. We will discuss the topic of the project, the reading/learning materials involved, the codes you will use, and the goals and deliverables of the project. The goal of the final project is to learn/do something new we did not cover in class/homeworks, and to demonstrate mastery of the course material by applying what we learned it class in your project.
 

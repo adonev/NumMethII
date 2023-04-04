@@ -61,43 +61,55 @@ A recent paper ["On the Stability of Exponential Integrators for Non-Diffusive E
 
 Another possible topic for a final project are pseudospectral methods for (nonlinear) wave equations, see for example the article ["A pseudospectral procedure for the solution of nonlinear wave equations with examples from free-surface flows"](https://epubs.siam.org/doi/abs/10.1137/S1064827597321532) by Milewski and Tabak (see also the paper ["The fidelity of exponential and IMEX integrators for wave turbulence" by Yang et al](https://doi.org/10.1016/j.jcp.2020.109992)).
 
-### 8. (3/28, 4/4) [Finite Difference Discretizations for Elliptic Equations](Lectures/FiniteDifference_Elliptic.pdf)
+### 8. (3/28, 4/4, 4/11) [Finite Difference Discretizations for Elliptic Equations](Lectures/FiniteDifference_Elliptic.pdf)
 
 I will follow relatively closely the book of LeVeque but not necessarily in the same order and with some additional comments. Read Chapters 1 and 2 in LeVeque.
 
-==================NOT UPDATED FROM HERE============================
-
-### 9. (4/4) [Finite Difference Methods for Parabolic Equations](Lectures/FD_Parabolic.pdf) 
+### 9. (4/18) [Finite Difference Methods for Parabolic Equations](Lectures/FD_Parabolic.pdf) 
 
 I will follow relatively closely chapter 9 in the book of LeVeque.
 
-### 10. (4/11) [Finite Difference Methods for Hyperbolic Equations](Lectures/FD_Hyperbolic.pdf) 
+### 10. (4/25) [Finite Difference Methods for Hyperbolic Equations](Lectures/FD_Hyperbolic.pdf) 
 
 I will follow relatively closely chapter 10 in the book of LeVeque.
 
-### 11. (4/18) [Finite Volume Methods for Advection-Diffusion Equations](Lectures/FV_Hyperbolic.pdf) 
+### 10. (5/2) [Finite Element Method](Lectures/FEM.pdf)
 
-These lecture notes are an assorted selection from lecture notes in my [class on Computational Fluid Dynamics.](../CFD/Lectures.html) The part about modified equations is common to finite-difference and finite-volume methods and is covered in section 10.8 in the book of LeVeque, but also look at section 10.8 and in particular [Fig. 10.4 in LeVeque](Lectures/Artificial.png). The semi-Lagrangian derivation of Lax-Wendroff is similar to what is done for upwinding in section 10.6 in Leveque.
+I will discuss classical Finite Element Methods (FEM) for parabolic and elliptic problems, based on notes by Georg Stadler, themselves based on these [notes by Patrick E. Farell](https://people.maths.ox.ac.uk/farrellp/femvideos/notes.pdf). I will skip much of the theory and focus on some more practical aspects. As a brief background look first at these short [notes on interpolation in 2D/3D](Lectures/Interp2D.pdf).
 
-We will also discuss simple Godunov schemes as a way to obtain finite-volume methods via reconstruction. These ideas are summarized nicely in sections 4.1 to 4.3 these [lecture notes from V. Springel and C.P. Dullemond](../CFD/Lectures/SlopeLimiters_Notes.pdf) (see their [full set of lectures](http://www.ita.uni-heidelberg.de/%7Edullemond/lectures/num_fluid_2012/)), but the most detailed source is chapters 6 and 10 in the book "[Finite Volume Methods for Hyperbolic Problems](http://depts.washington.edu/clawpack/book.html)" by Randall J. Leveque.
+If there is time, I will also briefly discuss the basic idea behind the [Discontinuous Galerkin (DEG) method for hyperbolic problems](Lectures/DG_Advection.pdf) based on lecture notes by Sandra May. This method is a combination of FV and FE methods and still under active development, so we will not go into any detail. While DEG also works for parabolic problems, whether there is any advantage to that is still an open area of research and I will not cover that.
 
-These [lecture notes on FV Methods for Conservation Laws](../CFD/Lectures/ConservationLaws.pdf) briefly discuss how to generalize the methods we discussed in detail for advection to more general nonlinear hyperbolic equations coming from conservation laws.
+An important aspect that we will not have time to cover are efficient linear solvers for the linear systems that arise in various grid-based FD/FV/FE methods, in particular for elliptic problems. While in 2D it is possible to use multifrontal direct solvers due to the abundance of memory on modern computers, for 3D iterative solvers based on algebraic or geometric **multigrid methods** are required; see these [lecture notes on geometric multigrid by William L. Briggs](http://www.math.ust.hk/%7Emawang/teaching/math532/mgtut.pdf). There are many existing libraries implementing such solvers.
 
-### 12. (4/25 and 5/2) [Finite Element Methods](Lectures/FEM_Elliptic.pdf)
+### 13. (5/9, optional) [Boundary Integral Methods](Lectures/BoundaryIntegralMethods.pdf)
 
-We will cover [FEM methods for elliptic PDEs](Lectures/FEM_Elliptic.pdf) based mostly on chapter 9 in the book of Iserles. I will also use chapter 0 of the [FEM textbook by Susanne Brenner](https://link.springer.com/book/10.1007/978-0-387-75934-0), available freely to you. This book covers also the analysis aspects that are inherent to FEM for elliptic problems, namely Sobolev spaces and variational formulations of elliptic PDEs. Here are some illustrations of [FEM grids/elements in higher dimensions](Lectures/FEM-basis-2D.pdf), including a [quadratic element basis function](Lectures/FEM_quadratic_basis_triangle.png), and [triangulations of an L-shaped region](Lectures/FEM_2D_L_shape_adaptive.png) used to solve Poisson problems.
+In this brief lecture I will cover some basic ideas behind boundary integral methods; my lecture notes are pretty elementary and based primarily on two sources. These [notes by Alex Barnett](Lectures/BoundaryIntegral_Barnett.pdf) give the basic discretizations with some code snippets. These incomplete [notes by Mike O'Neil](https://cims.nyu.edu/%7Eoneil/courses/fa17-math2011/int_eq_notes_2017.pdf) give an introduction to single and double layer operators. If you have never studied electrostatics or forgot all about it, it would be very useful to quickly review these [notes on electrostatics](https://cims.nyu.edu/%7Eoneil/courses/sp19-math2840/electrostatics.pdf).
 
-Here is some brief notes on [FEM methods for the advection equation](Lectures/FEM_Advection.pdf) (same ideas work for the diffusion equation also), taken from my CFD class.
+Note that efficiently computing quadratures with Green's function kernels in (log)linear time in the number of points requires using [fast multipole methods](https://math.nyu.edu/faculty/greengar/shortcourse_fmm.pdf) (in unbounded domains) or using the FFT (in periodic domains, in spectral Ewald splitting methods). More recently, methods based on low-rank compression are emerging as (algebraic) alternatives; see special topics course on randomized methods for linear algebra taught by Mike O'Neil and/or Jonathan Weare.
 
-### 13. (5/9) [Multigrid Methods](Lectures/MultigridTutorial_Briggs.pdf)
+## Self-study materials
 
-I will spend a considerable fraction of the first class going through the solution of HW5. You will see in this homework that one can get 2nd order accuracy for parabolic PDEs even when there is an apparent inconsistency (i.e., O(1) error) at the boundary points. This is explained in these lecture notes from my CFD class on [Boundary Conditions](https://cims.nyu.edu/%7Edonev/Teaching/CFD/Lectures/BoundaryConditions.pdf), which are based on section I.5 in the book [Numerical Solution of Time-Dependent Advection-Diffusion-Reaction Equations](http://link.springer.com/book/10.1007/978-3-662-09017-6), available freely to you in PDF format. The elliptic case is discussed in 2.12 in LeVeque.
+These are topics that we will not cover in class but I have some lecture materials for already. Some of these are suited for a final project. Students interested in going into more depth can take the [Computational Methods for PDEs class](https://adonev.github.io/CompPDEs), taught by Aleks Donev and/or Georg Stadler.
 
-For multigrid, I will use these excellent [lecture notes by William Briggs](Lectures/MultigridTutorial_Briggs.pdf) (his [textbook on multigrid](http://bookstore.siam.org/ot72/) is a classic) to discuss iterative methods to solve the types of large-scale linear systems that arise from discretizations of parabolic/elliptic PDEs. I will focus on geometric multigrid on regular grids; for unstructred FEM grids one can use [algebraic multigrid techniques](https://www.osti.gov/servlets/purl/897960).
+### 1. [Spectral methods for elliptic PDEs in bounded domains](Lectures/SpectralBVPs.pdf)
 
-### 14. (Optional, no lecture) [Boundary Integral Methods](Lectures/BoundaryIntegralMethods.pdf)
+We will briefly discuss (pseudo-spectral) methods for solving elliptic and by extension parabolic PDEs in non-periodic domains in one dimension. The basic idea is to use orthogonal polynomials (Chebyshev or Legendre) but the dilemma is in how to impose the PDE (weakly using Galerkin or strongly using collocation, or some other approach) and how to impose boundary conditions. What I will present is based on recent work by my PhD student Ondrej Maxian on [electrostatics](https://arxiv.org/abs/2101.07088).
 
-My lecture notes are pretty elementary and based primarily on two sources. These [notes by Alex Barnett](Lectures/BoundaryIntegral_Barnett.pdf) give the basic discretizations with some code snippets. These incomplete [notes by Mike O'Neil](https://cims.nyu.edu/%7Eoneil/courses/fa17-math2011/int_eq_notes_2017.pdf) give an introduction to single and double layer operators. If you have never studied electrostatics or forgot all about it, it would be very useful to quickly review these [notes on electrostatics](https://cims.nyu.edu/%7Eoneil/courses/sp19-math2840/electrostatics.pdf).
+You will also need background material from Numerical Methods I on orthogonal polynomials (Chebyshev or Legendre), including both interpolation and quadrature. A nice summary of the difference between type-1 and type-2 grids, which is a muddled topic in the literature, can be found in the paper ["The Chebyshev points of the first kind" by Kuan Xu](https://doi.org/10.1016/j.apnum.2015.12.002). Lots of numerical analysis tools built around Chebyshev polynomials are in the [Matlab chebfun library](https://www.chebfun.org/).
 
-More advanced students can learn how to efficiently compute the trapezoidal quadrature in (log)linear time in the number of points using [fast multipole methods](https://math.nyu.edu/faculty/greengar/shortcourse_fmm.pdf) (in unbounded domains, using [existing Courant codes](https://cims.nyu.edu/cmcl/fmm2dlib/fmm2dlib.html)) or using the FFT in periodic domains (with Ewald splitting).
+The standard collocation method using type-2 Chebyshev grid is described in the book ["Spectral Methods in Matlab" by Nick Trefethen](https://epubs.siam.org/doi/book/10.1137/1.9780898719598), which includes lots of [MATLAB codes](https://people.maths.ox.ac.uk/trefethen/spectral.html).
+
+I will discuss both weak imposition in Galerkin methods and strong imposition using a spectral equivalent of the "ghost cell" technique. This is based (but slightly modified) from the approach described pedagogically in the paper ["Block Operators and Spectral Discretizations" by Aurentz and Trefethen](https://people.maths.ox.ac.uk/trefethen/blocks_final.pdf) based on the method proposed in the paper ["Rectangular spectral collocation" by Driscoll and N. Hale](https://doi.org/10.1093/imanum/dru062).
+
+A state-of-the-art spectral solver for one dimensional BVPs with non-constant coefficients is described in the paper ["A fast and well-conditioned spectral method" by S. Olver and A. Townsend](https://epubs.siam.org/doi/abs/10.1137/120865458) and can form the basis of a final project. Note that this solver, like most non-Galerkin spectral methods, does not preserve the structure of Sturm-Louiville problems (e.g., the definiteness of the 2nd order operator).
+
+For software/methods for solving evolution PDEs in bounded (but logically rectangular) 2D and 3D domains using orthogonal polynomial basis see the [Dedalus](https://dedalus-project.org/) package.
+
+Note that FFT-based methods can be used to solve elliptic PDEs in irregular domains by using extention into a rectangular periodic domain. This can also be a topic of a final project. I suggest looking at the paper [The smooth forcing extension method by Qadeer and Griffith](https://doi.org/10.1016/j.jcp.2021.110390) for a simple yet accurate approach.
+
+### 2. [Basic Finite Volume Methods](Lectures/BasicFVM.pdf)
+
+We will discuss finite volume methods for advection-diffusion equations in one dimension, focusing on advection. Much of this material is in the books of LeVeque, but for a more self-contained reading see these [lecture notes from V. Springel and C.P. Dullemond](Lectures/SlopeLimiters_Notes.pdf) (you can also access freely their [full set of lectures](http://www.ita.uni-heidelberg.de/%7Edullemond/lectures/num_fluid_2012/)), which also contain material for subsequent lectures. 
+
+This [Maple worksheet](Lectures/ThirdOrderUpwind.pdf) ([as Maple file](Lectures/ThirdOrderUpwind.mw)) shows that the 3rd-order upwind biased spatial discretization of advection is 3rd order only as a FV scheme for non-constant advection, but not when viewed as an FD scheme.
 
