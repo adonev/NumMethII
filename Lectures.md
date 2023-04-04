@@ -61,11 +61,11 @@ A recent paper ["On the Stability of Exponential Integrators for Non-Diffusive E
 
 Another possible topic for a final project are pseudospectral methods for (nonlinear) wave equations, see for example the article ["A pseudospectral procedure for the solution of nonlinear wave equations with examples from free-surface flows"](https://epubs.siam.org/doi/abs/10.1137/S1064827597321532) by Milewski and Tabak (see also the paper ["The fidelity of exponential and IMEX integrators for wave turbulence" by Yang et al](https://doi.org/10.1016/j.jcp.2020.109992)).
 
-==================NOT UPDATED FROM HERE============================
-
-### 8. (3/28) [Finite Difference Discretizations](Lectures/FD_Elliptic_1D.pdf) and (3/26 and 4/2) their [Convergence and Stability for Elliptic BVPs](Lectures/FD_Elliptic_Convergence.pdf)
+### 8. (3/28, 4/4) [Finite Difference Discretizations for Elliptic Equations](Lectures/FiniteDifference_Elliptic.pdf)
 
 I will follow relatively closely the book of LeVeque but not necessarily in the same order and with some additional comments. Read Chapters 1 and 2 in LeVeque.
+
+==================NOT UPDATED FROM HERE============================
 
 ### 9. (4/4) [Finite Difference Methods for Parabolic Equations](Lectures/FD_Parabolic.pdf) 
 
