@@ -65,11 +65,11 @@ Another possible topic for a final project are pseudospectral methods for (nonli
 
 I will follow relatively closely the book of LeVeque but not necessarily in the same order and with some additional comments. Read Chapters 1 and 2 in LeVeque.
 
-### 9. (4/18) [Finite Difference Methods for Parabolic Equations](Lectures/FD_Parabolic.pdf) 
+### 9. (4/18) [Finite Difference Methods for Parabolic Equations](Lectures/FiniteDifference_Parabolic.pdf)
 
 I will follow relatively closely chapter 9 in the book of LeVeque.
 
-### 10. (4/25) [Finite Difference Methods for Hyperbolic Equations](Lectures/FD_Hyperbolic.pdf) 
+### 10. (4/25, NOT FINISHED) [Finite Difference Methods for Hyperbolic Equations](Lectures/FD_Hyperbolic.pdf) 
 
 I will follow relatively closely chapter 10 in the book of LeVeque.
 
