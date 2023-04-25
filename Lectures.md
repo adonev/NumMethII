@@ -69,7 +69,7 @@ I will follow relatively closely the book of LeVeque but not necessarily in the 
 
 I will follow relatively closely chapter 9 in the book of LeVeque.
 
-### 10. (4/25, NOT FINISHED) [Finite Difference Methods for Hyperbolic Equations](Lectures/FD_Hyperbolic.pdf) 
+### 10. (4/25, NOT FINISHED) [Finite Difference Methods for Hyperbolic Equations](Lectures/FiniteDifferenceHyperbolic.pdf) 
 
 I will follow relatively closely chapter 10 in the book of LeVeque.
 
