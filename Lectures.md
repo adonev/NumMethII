@@ -71,7 +71,7 @@ I will follow relatively closely chapter 9 in the book of LeVeque.
 
 ### 10. (4/25, 5/2) [Finite Difference Methods for Hyperbolic Equations](Lectures/FiniteDifference_Hyperbolic.pdf) 
 
-I will follow relatively closely chapter 10 in the book of LeVeque.
+I will follow relatively closely chapter 10 in the book of LeVeque. Here is a [Maple script for the third-order upwind biased FD for advection](Lectures/ThirdOrderUpwind.pdf) ([Maple source](Lectures/ThirdOrderUpwind.mw)).
 
 ### 11. (5/9, optional) [Finite Element Method](Lectures/FEM.pdf)
 
