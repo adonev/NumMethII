@@ -69,11 +69,11 @@ I will follow relatively closely the book of LeVeque but not necessarily in the 
 
 I will follow relatively closely chapter 9 in the book of LeVeque.
 
-### 10. (4/25, NOT FINISHED) [Finite Difference Methods for Hyperbolic Equations](Lectures/FiniteDifferenceHyperbolic.pdf) 
+### 10. (4/25, 5/2) [Finite Difference Methods for Hyperbolic Equations](Lectures/FiniteDifference_Hyperbolic.pdf) 
 
 I will follow relatively closely chapter 10 in the book of LeVeque.
 
-### 10. (5/2) [Finite Element Method](Lectures/FEM.pdf)
+### 11. (5/9, optional) [Finite Element Method](Lectures/FEM.pdf)
 
 I will discuss classical Finite Element Methods (FEM) for parabolic and elliptic problems, based on notes by Georg Stadler, themselves based on these [notes by Patrick E. Farell](https://people.maths.ox.ac.uk/farrellp/femvideos/notes.pdf). I will skip much of the theory and focus on some more practical aspects. As a brief background look first at these short [notes on interpolation in 2D/3D](Lectures/Interp2D.pdf).
 
@@ -81,11 +81,6 @@ If there is time, I will also briefly discuss the basic idea behind the [Discont
 
 An important aspect that we will not have time to cover are efficient linear solvers for the linear systems that arise in various grid-based FD/FV/FE methods, in particular for elliptic problems. While in 2D it is possible to use multifrontal direct solvers due to the abundance of memory on modern computers, for 3D iterative solvers based on algebraic or geometric **multigrid methods** are required; see these [lecture notes on geometric multigrid by William L. Briggs](http://www.math.ust.hk/%7Emawang/teaching/math532/mgtut.pdf). There are many existing libraries implementing such solvers.
 
-### 13. (5/9, optional) [Boundary Integral Methods](Lectures/BoundaryIntegralMethods.pdf)
-
-In this brief lecture I will cover some basic ideas behind boundary integral methods; my lecture notes are pretty elementary and based primarily on two sources. These [notes by Alex Barnett](Lectures/BoundaryIntegral_Barnett.pdf) give the basic discretizations with some code snippets. These incomplete [notes by Mike O'Neil](https://cims.nyu.edu/%7Eoneil/courses/fa17-math2011/int_eq_notes_2017.pdf) give an introduction to single and double layer operators. If you have never studied electrostatics or forgot all about it, it would be very useful to quickly review these [notes on electrostatics](https://cims.nyu.edu/%7Eoneil/courses/sp19-math2840/electrostatics.pdf).
-
-Note that efficiently computing quadratures with Green's function kernels in (log)linear time in the number of points requires using [fast multipole methods](https://math.nyu.edu/faculty/greengar/shortcourse_fmm.pdf) (in unbounded domains) or using the FFT (in periodic domains, in spectral Ewald splitting methods). More recently, methods based on low-rank compression are emerging as (algebraic) alternatives; see special topics course on randomized methods for linear algebra taught by Mike O'Neil and/or Jonathan Weare.
 
 ## Self-study materials
 
@@ -107,7 +102,13 @@ For software/methods for solving evolution PDEs in bounded (but logically rectan
 
 Note that FFT-based methods can be used to solve elliptic PDEs in irregular domains by using extention into a rectangular periodic domain. This can also be a topic of a final project. I suggest looking at the paper [The smooth forcing extension method by Qadeer and Griffith](https://doi.org/10.1016/j.jcp.2021.110390) for a simple yet accurate approach.
 
-### 2. [Basic Finite Volume Methods](Lectures/BasicFVM.pdf)
+### 2. [Boundary Integral Methods](Lectures/BoundaryIntegralMethods.pdf)
+
+In this brief lecture I will cover some basic ideas behind boundary integral methods; my lecture notes are pretty elementary and based primarily on two sources. These [notes by Alex Barnett](Lectures/BoundaryIntegral_Barnett.pdf) give the basic discretizations with some code snippets. These incomplete [notes by Mike O'Neil](https://cims.nyu.edu/%7Eoneil/courses/fa17-math2011/int_eq_notes_2017.pdf) give an introduction to single and double layer operators. If you have never studied electrostatics or forgot all about it, it would be very useful to quickly review these [notes on electrostatics](https://cims.nyu.edu/%7Eoneil/courses/sp19-math2840/electrostatics.pdf).
+
+Note that efficiently computing quadratures with Green's function kernels in (log)linear time in the number of points requires using [fast multipole methods](https://math.nyu.edu/faculty/greengar/shortcourse_fmm.pdf) (in unbounded domains) or using the FFT (in periodic domains, in spectral Ewald splitting methods). More recently, methods based on low-rank compression are emerging as (algebraic) alternatives; see special topics course on randomized methods for linear algebra taught by Mike O'Neil and/or Jonathan Weare.
+
+### 3. [Basic Finite Volume Methods](Lectures/BasicFVM.pdf)
 
 We will discuss finite volume methods for advection-diffusion equations in one dimension, focusing on advection. Much of this material is in the books of LeVeque, but for a more self-contained reading see these [lecture notes from V. Springel and C.P. Dullemond](Lectures/SlopeLimiters_Notes.pdf) (you can also access freely their [full set of lectures](http://www.ita.uni-heidelberg.de/%7Edullemond/lectures/num_fluid_2012/)), which also contain material for subsequent lectures. 
 
