@@ -39,7 +39,7 @@ We will give some more details about [Runge-Kutta methods](Lectures/RungeKuttaNu
 
 We will not cover in class the last aside in the lecture notes, which describes how to derive the fully [implicit Gauss RK2 scheme](https://en.wikipedia.org/wiki/Gauss%E2%80%93Legendre_method) of 4th order, the maximum possible for two stages. Some of the calculations and the proof that this method is of 4th order for linear ODEs are done in a [Maple worksheet](Lectures/GaussRK2.pdf) ([Maple _mws_ file](Lectures/GaussRK2.mws)). To understand the theory behind these methods, look at chapter 17 (Collocation methods) in these [lecture notes by Michael Lindsey](https://quantumtative.github.io/math228a_lecture_notes.pdf).
 
-### 5. (3/7)  [Absolute Stability and Stiffness](Lectures/Lecture-Stability.handout.pdf) and [Linear Multistep Methods](Lectures/LinearMultistepMethods.pdf)
+### 5. (2/28)  [Absolute Stability and Stiffness](Lectures/Lecture-Stability.handout.pdf)
 
 The lecture on 2/28 will be given by Mariya Savinov, see these [additional notes on HW2](Lectures/LectureStability_ExtraNotes.pdf). They will introduce regions of [absolute stability](Lectures/Lecture-Stability.handout.pdf) for various one-step methods and discuss the concept of stiffness, which will be crucial for PDEs. Read chapters 7 and 8 in LeVeque, except 7.3, 7.6.1 and 8.4.
 
