@@ -64,8 +64,8 @@ Each student will be required to do either a _take home final_ similar to the ho
 - 65.0-72.5 = B-
 - 57.5-65.0 = C+
 - 50.0-57.5 = C
-- 42.5-50.0 = C- 
-- \<42.5       = F
+- 45.0-50.0 = C- 
+- \<45.0    = F
 
 As a first assignment, please submit the answers to this questionnaire [via email](mailto:donev@courant.nyu.edu) as soon as possible: 
 
