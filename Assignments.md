@@ -81,6 +81,10 @@ There is some useful software (feel free to use this software but make sure to u
 
 Use pseudospectral methods to solve the [Kuramoto–Sivashinsky equation](https://en.wikipedia.org/wiki/Kuramoto%E2%80%93Sivashinsky_equation) in one and higher dimensions. If time permits, use Krylov methods to implement the exponential integrators for non-periodic domains.
 
+### Image inpainting
+
+Filling out missing pieces in an image can be done using nonlinear parabolic PDEs combined with IMEX-type schemes, as explained in the [paper by K. Chow, S.J. Ruuth on "Linearly stabilized schemes for the time integration of stiff nonlinear PDEs", J. Sci. Comput., 87(3): 1-29, 2021](https://arxiv.org/abs/2104.12340). The spatial discretization can be FEM or finite difference.
+
 ### Finite-Element Methods in 1D or 2D
 
 Learn about the finite element method and solve an elliptic PDE with it, either writing your own code for a one-dimensional Sturm-Louville problem (in which case it would be great to compare to finite difference and maybe also spectral methods, see below), or using a package to solve a two-dimensional non-constant coefficient elliptic problem. Here is a nice introduction to [Galerkin FEM for 2D Poisson](https://people.inf.ethz.ch/arbenz/FEM17/pdfs/0-19-852868-X.pdf).
