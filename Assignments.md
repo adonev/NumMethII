@@ -83,7 +83,7 @@ Use pseudospectral methods to solve the [Kuramoto–Sivashinsky equation](https:
 
 ### Image inpainting
 
-Filling out missing pieces in an image can be done using nonlinear parabolic PDEs combined with IMEX-type schemes, as explained in the [paper by K. Chow, S.J. Ruuth on "Linearly stabilized schemes for the time integration of stiff nonlinear PDEs", J. Sci. Comput., 87(3): 1-29, 2021](https://arxiv.org/abs/2104.12340). The spatial discretization can be FEM or finite difference.
+Filling out missing pieces in an image can be done using nonlinear parabolic PDEs combined with IMEX-type schemes, as explained in Section 6.1 of the [paper by K. Chow, S.J. Ruuth on "Linearly stabilized schemes for the time integration of stiff nonlinear PDEs", J. Sci. Comput., 87(3): 1-29, 2021](https://arxiv.org/abs/2104.12340). The spatial discretization can be FEM or finite difference.
 
 ### Finite-Element Methods in 1D or 2D
 
